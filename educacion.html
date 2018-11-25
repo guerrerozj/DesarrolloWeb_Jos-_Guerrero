@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Educación</title>
+	<style type="text/css">
+		line {
+		  stroke-dasharray: 100;
+		  stroke-dashoffset: 100;
+		  animation: dash 17s linear alternate infinite;
+		}
+
+		@keyframes dash {
+		  from {
+		    stroke-dashoffset: 1000;
+		  }
+		  to {
+		    stroke-dashoffset: 0;
+		  }
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<svg width="180" height="180">
+			<line x1="140" y1="140" x2="221" y2="20" stroke="green" stroke-width="15"/>
+			<line x1="90" y1="115" x2="143" y2="150" stroke="green" stroke-width="15"/>
+			<line x1="90" y1="160" x2="170" y2="40" stroke="orange" stroke-width="15"/>
+			<line x1="50" y1="130" x2="98" y2="159" stroke="orange" stroke-width="15"/>
+		</svg>
+		
+		<h1>Resumen Curricular</h1>
+		<h1>Datos personales</h1>
+		<h2>Jesús Guerrero A.</h2>
+		<h3>16 de Noviembre</h3>
+		<h3>Querétaro, México</h3>
+		<nav>
+			<ol>
+				<li><a href="index.html" >Inicio</a></li>
+				<li><a href="educacion.html" >Educación</a></li>
+				<li><a href="experiencia.html" >Experiencia</a></li>
+			</ol>
+		</nav>
+	</header>
+
+
+<h2>Educaci&oacute;n</h2>
+<table border="1" cellpadding="4" cellspacing="4">
+	<tr>
+		<td>Año</td>
+		<td>Instituci&oacute;n</td>
+		<td>Lugar</td>
+		<td>¿Culmin&oacute;?</td>
+	</tr>
+	<tr>
+		<td>2008</td>
+		<td>ITSJR</td>
+		<td>San Juan del R&iacute;o</td>
+		<td>Sí</td>
+	</tr>	
+	<tr>
+		<td>2004</td>
+		<td>CECYTEH</td>
+		<td>Huichapan</td>
+		<td>Sí</td>
+	</tr>	
+</table>
+<h3>Agregar estudios</h3>
+<form>
+Año: 
+	<select>
+		<option>Elige...</option>
+		<option>2000</option>
+		<option>2001</option>
+		<option>2002</option>
+		<option>2003</option>
+		<option>2004</option>
+		<option>2005</option>
+		<option>2006</option>
+		<option>2007</option>
+		<option>2008</option>
+		<option>2009</option>
+		<option>2010</option>
+		<option>2011</option>
+		<option>2012</option>
+		<option>2013</option>
+		<option>2014</option>
+		<option>2015</option>
+		<option>2016</option>
+		<option>2017</option>
+		<option>2018</option>
+	</select>
+	<br>
+Instituci&oacute;n: <input type="text" name="Institucion" /><br>
+Lugar: <input type="text" name="Lugar"/><br>
+<input name="Enviar" type="submit">
+</form>
+
+<footer>
+	<h3>Pie de p&aacute;gina</h3>
+	<ul>
+		<li>Correo electronico: guerrero@mailto.com</li>
+		<li>Cel:(52) 442 321 7654</li>
+		<li>jesus@facebook.com</li>
+	</ul>
+</footer>
+</body>
+
+</html>
